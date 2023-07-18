@@ -8,6 +8,7 @@ import Reveal from './components/Reveal'
 
 import { useEffect, useState, useRef } from 'react';
 import { motion, transform, useInView ,useAnimation, useScroll } from 'framer-motion';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <Hero />
         <Projects />
         <Contact visible={visible} setVisible={setVisible} isInView={isInView} />
-        <div ref={bottomDiv} className='h-[100px]'></div>
+        <Footer Ref={bottomDiv} />
     </div>
   )
 }
