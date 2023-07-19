@@ -13,7 +13,7 @@ const Hero = () => {
                 I'm Nor Danish Imran— 
                 a sophomore at the 
                 University of Michigan
-                and an avid procrastinator.
+                and I like cats 🐈.
             </h1>
             </Reveal>
             {/* <h1 className='text-3xl sm:text-7xl lg:text-8xl xl:text-[150px] 2xl:text-[165px] tracking-tight'>

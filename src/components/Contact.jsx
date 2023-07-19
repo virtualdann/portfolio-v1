@@ -24,7 +24,7 @@ const Contact = ({visible, setVisible, isInView}) => {
             <motion.div 
                 id="contact" 
                 className="cursor-grab font-playfair flex flex-col justify-around bg-cover aspect-[16/9] w-[90vw] md:w-[70vw] 2xl:w-[60vw] fixed bottom-0 z-40" 
-                style={{backgroundImage: `url("src/assets/texture.svg")`}}
+                style={{backgroundImage: `url("/src/assets/texture.svg")`}}
                 variants={{
                     hidden: {
                         y: "95%"
