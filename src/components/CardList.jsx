@@ -13,7 +13,7 @@ const CardList = () => {
                 <Card top={true} title={"Workout Finder"} imgSrc={"/workout-finder-1.png"} desc={desc} tools={['React', 'HTML', 'CSS', 'NextJS', 'Vercel']} />
             </Reveal>
             <Reveal>
-                <Card top={true} title={"Spotify Collage"} imgSrc={"/collagify.png"} desc={desc2} tools={['React', 'HTML', 'CSS', 'Typescript', 'Render']} />
+                <Card top={false} title={"Spotify Collage"} imgSrc={"/collagify.png"} desc={desc2} tools={['React', 'HTML', 'CSS', 'Typescript', 'Render']} />
             </Reveal>
             {/* <Reveal>
                 <Card title={"Project 2"} imgSrc={"src/assets/workout-finder-1.png"} desc={desc + desc} tools={['React', 'HTML', 'CSS', 'NextJS', 'Vercel']}/>
