@@ -11,11 +11,11 @@ const Hero = () => {
         <section className='w-full p-[10%] sm:px-[10%] sm:my-0 sm:py-[4%]' id='about'>
             <Reveal>
 
-            <h1 className='text-4xl sm:text-7xl lg:text-8xl xl:text-[97px] 2xl:text-[108px] tracking-tight relative z-0'>
-                Hi👋, <br />
-                I'm Nor Danish Imran— 
-                a sophomore at the University of Michigan and I like cats 🐈.
-            </h1>
+                <h1 className='text-4xl sm:text-7xl lg:text-8xl xl:text-[97px] 2xl:text-[108px] tracking-tight relative z-0'>
+                    Hi👋, <br />
+                    I'm Nor Danish Imran—
+                    a sophomore at the University of Michigan—looking to explore opportunities in CS!💻🤓.
+                </h1>
             </Reveal>
             {/* <h1 className='text-3xl sm:text-7xl lg:text-8xl xl:text-[150px] 2xl:text-[165px] tracking-tight'>
                 Hi👋, 
